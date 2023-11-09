@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
+import ScreenAcuerdosComerciales from './pantallaANT/screenAcuerdosComerciales/ScreenAcuerdosComerciales'
+import ScreenPlanesDeCompra from './pantallaANT/screenPlanesDeCompra/ScreenPlanesDeCompra'
 
 export default function Home() {
   return (
@@ -12,6 +14,9 @@ export default function Home() {
       </Head>
       <main className={`${styles.main}`}>
        
+       <ScreenPlanesDeCompra></ScreenPlanesDeCompra>
+       {/* <ScreenAcuerdosComerciales></ScreenAcuerdosComerciales> */}
+
       </main>
     </>
   )
