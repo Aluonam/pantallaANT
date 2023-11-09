@@ -1,17 +1,19 @@
 import React from 'react'
 import styleScreenPlanesDeCompra from './ScreenPlanesDeCompra.module.css'
+import Title from './components/title/Title'
+import Filters from './components/filters/Filters'
+import Table from './components/table/Table'
 
 const ScreenPlanesDeCompra = () => {
   return (
     <div className={styleScreenPlanesDeCompra.generalDiv}>
-
-      <div className={styleScreenPlanesDeCompra.title}>
-        <h2>Título</h2>
-      </div>
-
-      <div className={styleScreenPlanesDeCompra.generalData}></div>
-
-      <div className={styleScreenPlanesDeCompra.table}></div>
+      
+        <Title></Title>
+      
+        <Filters></Filters>
+      
+        <Table></Table>
+      
     </div>
   )
 }
