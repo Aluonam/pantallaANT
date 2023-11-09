@@ -4,8 +4,8 @@ import styleFilters from './Filters.module.css'
 const Filters = () => {
   return (
     <div className={styleFilters.filters}>
-        <div></div>
-        <div></div>
+        <div className={styleFilters.filters_inputs}></div>
+        <div className={styleFilters.filters_buttons}></div>
     </div>
   )
 }
