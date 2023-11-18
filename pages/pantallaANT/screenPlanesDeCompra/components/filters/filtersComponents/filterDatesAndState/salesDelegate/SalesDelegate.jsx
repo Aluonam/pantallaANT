@@ -1,8 +1,10 @@
 import React from 'react'
+import styleSalesDelegate from './SalesDelegate.module.css'
 
 const SalesDelegate = () => {
   return (
-    <div>SalesDelegate</div>
+    <div className={styleSalesDelegate.box5}>
+        SalesDelegate</div>
   )
 }
 

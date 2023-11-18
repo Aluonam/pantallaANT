@@ -1,8 +1,10 @@
 import React from 'react'
+import styleSalesManager from './SalesManager.module.css'
 
 const SalesManager = () => {
   return (
-    <div>SalesManager</div>
+    <div className={styleSalesManager.box4}>
+        SalesManager</div>
   )
 }
 

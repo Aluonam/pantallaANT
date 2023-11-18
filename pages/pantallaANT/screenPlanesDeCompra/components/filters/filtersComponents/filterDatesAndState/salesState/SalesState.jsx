@@ -1,8 +1,10 @@
 import React from 'react'
+import styleSalesState from './SalesState.module.css'
 
 const SalesState = () => {
   return (
-    <div>SalesState</div>
+    <div className={styleSalesState.box6}>
+        SalesState</div>
   )
 }
 

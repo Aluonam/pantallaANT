@@ -1,8 +1,10 @@
 import React from 'react'
+import styleDatesInterval from './DatesInterval.module.css'
 
 const DatesInterval = () => {
   return (
-    <div>DatesInterval</div>
+    <div className={styleDatesInterval.box3}> 
+      DatesInterval</div>
   )
 }
 
