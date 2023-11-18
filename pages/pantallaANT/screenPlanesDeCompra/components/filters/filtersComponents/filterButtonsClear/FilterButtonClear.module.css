@@ -1,0 +1,16 @@
+
+.container3{
+    background-color: rgb(91, 177, 177);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+    min-height: 32px;
+}
+
+@media (max-width:600px) {
+    .container3{
+        justify-content: center;
+    }
+}

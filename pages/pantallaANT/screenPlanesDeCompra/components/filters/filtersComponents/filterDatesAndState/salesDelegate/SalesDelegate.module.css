@@ -1,0 +1,17 @@
+
+
+.box5{
+    width: 20%;
+    background-color: rgb(68, 86, 41);
+    min-width: 80px;
+    min-height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width:600px){
+    .box5{
+        width: 50%;
+    }
+}

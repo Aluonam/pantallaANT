@@ -1,0 +1,16 @@
+
+.box3{
+    width: 30%;
+    background-color: rgb(162, 201, 103);
+    min-width: 100px;
+    min-height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width:600px){
+    .box3{
+        width: 50%;
+    }
+}
