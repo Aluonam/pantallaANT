@@ -1,8 +1,9 @@
 import React from 'react'
+import styleTableData from './TableData.module.css'
 
 const TableData = () => {
   return (
-    <div>TableData</div>
+    <div className={styleTableData.tableData}>TableData</div>
   )
 }
 
