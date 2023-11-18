@@ -1,8 +1,11 @@
 import React from 'react'
+import styleFilterButtonClear from './FilterButtonClear.module.css'
 
 const FilterButtonClear = () => {
   return (
-    <div>FilterButtonClear</div>
+    <div className={styleFilterButtonClear.container3}>
+      FilterButtonClear
+      </div>
   )
 }
 

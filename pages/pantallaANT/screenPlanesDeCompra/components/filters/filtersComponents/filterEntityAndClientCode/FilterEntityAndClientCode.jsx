@@ -1,8 +1,11 @@
 import React from 'react'
+import styleFilterEntityAndClientCode from './FilterEntityAndClientcode.module.css'
 
 const FilterEntityAndClientCode = () => {
   return (
-    <div>FilterEntityAndClientCode</div>
+    <div className={styleFilterEntityAndClientCode.container1}>
+      FilterEntityAndClientCode
+      </div>
   )
 }
 
