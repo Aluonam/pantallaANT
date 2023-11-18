@@ -1,10 +1,13 @@
 import React from 'react'
 import styleTable from './Table.module.css'
+import Pagination from './tablecomponents/pagination/Pagination'
+import TableData from './tablecomponents/tableData/TableData'
 
 const Table = () => {
   return (
     <div className={styleTable.table}>
-    <h4>Tabla</h4>
+      <Pagination></Pagination>
+      <TableData></TableData>
     </div>
   )
 }

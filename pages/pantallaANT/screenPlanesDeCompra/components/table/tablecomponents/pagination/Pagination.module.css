@@ -1,0 +1,8 @@
+
+.pagination{
+    background-color: rgb(105, 166, 146);
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
