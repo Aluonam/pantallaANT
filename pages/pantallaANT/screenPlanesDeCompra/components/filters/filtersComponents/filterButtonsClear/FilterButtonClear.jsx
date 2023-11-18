@@ -4,7 +4,9 @@ import styleFilterButtonClear from './FilterButtonClear.module.css'
 const FilterButtonClear = () => {
   return (
     <div className={styleFilterButtonClear.container3}>
-      FilterButtonClear
+        <div>Mostrar menos</div>
+        <div>Filtrar</div>
+        <div>Limpiar</div>
       </div>
   )
 }

@@ -6,6 +6,9 @@
     background-color: rgb(48, 52, 44);
     min-width: 80px;
     min-height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media (max-width:600px){

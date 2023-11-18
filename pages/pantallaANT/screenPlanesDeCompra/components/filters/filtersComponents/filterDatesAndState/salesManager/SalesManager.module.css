@@ -5,7 +5,10 @@
     background-color: rgb(99, 135, 44);
     min-width: 100px;
     min-height: 32px;
+    display: flex;
 
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media (max-width:600px){

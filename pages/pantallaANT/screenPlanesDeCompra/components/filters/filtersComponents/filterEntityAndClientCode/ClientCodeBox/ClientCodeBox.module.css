@@ -3,6 +3,7 @@
     width: 30%;
     background-color: rgb(138, 138, 204);
     min-height: 32px;
+    
 }
 
 @media (max-width:600px){
