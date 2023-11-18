@@ -2,6 +2,14 @@
 
 .box4{
     width: 30%;
-    height: auto;
     background-color: rgb(99, 135, 44);
+    min-width: 100px;
+    min-height: 32px;
+
+}
+
+@media (max-width:600px){
+    .box4{
+        width: 50%;
+    }
 }

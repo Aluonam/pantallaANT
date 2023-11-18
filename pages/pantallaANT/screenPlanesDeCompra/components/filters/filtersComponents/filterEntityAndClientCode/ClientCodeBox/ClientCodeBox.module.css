@@ -1,6 +1,12 @@
 
 .box2{
     width: 30%;
-    height: auto;
     background-color: rgb(138, 138, 204);
+    min-height: 32px;
+}
+
+@media (max-width:600px){
+    .box2{
+        width: 100%;
+    }
 }

@@ -3,6 +3,13 @@
 
 .box6{
     width: 20%;
-    height: auto;
     background-color: rgb(48, 52, 44);
+    min-width: 80px;
+    min-height: 32px;
+}
+
+@media (max-width:600px){
+    .box6{
+        width: 50%;
+    }
 }

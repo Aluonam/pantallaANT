@@ -1,6 +1,13 @@
 
 .box3{
     width: 30%;
-    height: auto;
     background-color: rgb(162, 201, 103);
+    min-width: 100px;
+    min-height: 32px;
+}
+
+@media (max-width:600px){
+    .box3{
+        width: 50%;
+    }
 }
