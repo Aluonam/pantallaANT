@@ -1,5 +1,6 @@
 .container1{
     width: auto;
-    height: 40%;
+    height: 30%;
     border: 2px solid blue;
+    margin: 10px;
 }
