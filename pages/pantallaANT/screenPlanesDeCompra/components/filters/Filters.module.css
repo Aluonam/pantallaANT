@@ -1,0 +1,21 @@
+.filters{
+    width: 100%;
+    height: 30%;
+    padding: 0px 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.filters_inputs{
+    width: 100%;
+    height: 75%;
+    /* padding: 10px; */
+    background: #fbfbfb;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+}
+
+.filters_buttons{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(18, 30, 54);
+}
