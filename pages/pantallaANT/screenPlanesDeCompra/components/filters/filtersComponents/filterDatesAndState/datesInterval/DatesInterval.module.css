@@ -1,12 +1,18 @@
 
 .box3{
     width: 30%;
-    background-color: rgb(162, 201, 103);
     min-width: 100px;
     min-height: 32px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
+}
+
+.titleDatesInterval{
+    font-family: Roboto,sans-serif!important;
+    color: rgba(0,0,0,.65); 
+    font-size: 14px;
 }
 
 @media (max-width:600px){
