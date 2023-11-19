@@ -1,13 +1,15 @@
 .container1{
     width: auto;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
+    gap: 3%;
 }
 
 @media (max-width:600px){
     .container1{
         flex-direction: row;
+        gap: 10px;
     }
 }

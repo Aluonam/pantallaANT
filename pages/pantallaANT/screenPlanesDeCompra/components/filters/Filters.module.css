@@ -6,11 +6,13 @@
 }
 
 .filters_inputs{
-    width: 100%;
+    /* width: 100%; */
     padding-bottom: 10px;
     background: #fbfbfb;
     border: 1px solid #d9d9d9;
     border-radius: 2px;
+    padding: 20px 20px 0px;
+
 }
 
 .filters_buttons{
