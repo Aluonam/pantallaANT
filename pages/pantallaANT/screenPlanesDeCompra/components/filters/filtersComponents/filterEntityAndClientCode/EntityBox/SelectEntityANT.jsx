@@ -13,10 +13,10 @@ const SelectEntityANT = () => {
   };
 
   const ejemploOpciones = [
-    { label:"ejemeplo1",value:"ejemplo1" },
-    { label:"ejemeplo2",value:"ejemplo2" },
-    { label:"ejemeplo3",value:"ejemplo3" },
-    { label:"ejemeplo4",value:"ejemplo4" }
+    { label:"ejemplo1",value:"ejemplo1" },
+    { label:"ejemplo2",value:"ejemplo2" },
+    { label:"ejemplo3",value:"ejemplo3" },
+    { label:"ejemplo4",value:"ejemplo4" }
 
 
 
@@ -25,7 +25,7 @@ const SelectEntityANT = () => {
     <Select
       showSearch
       value={value}
-      placeholder={"busca"}
+      placeholder={"Escribe para buscar una entidad"}
       allowClear={true}
       defaultActiveFirstOption={false}
       suffixIcon={null}

@@ -1,9 +1,17 @@
 
 .box2{
     width: 29%;
-    background-color: rgb(138, 138, 204);
     min-height: 32px;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titleClientCode{
+    font-family: Roboto,sans-serif!important;
+    color: rgba(0,0,0,.65); 
+    font-size: 14px;
+
 }
 
 @media (max-width:600px){
