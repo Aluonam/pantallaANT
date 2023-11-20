@@ -1,9 +1,10 @@
 
 .box2{
-    width: 30%;
-    background-color: rgb(138, 138, 204);
+    width: 29%;
     min-height: 32px;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 @media (max-width:600px){

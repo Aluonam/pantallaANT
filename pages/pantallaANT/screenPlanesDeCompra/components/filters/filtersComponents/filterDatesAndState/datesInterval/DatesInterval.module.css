@@ -1,16 +1,22 @@
 
 .box3{
-    width: 30%;
-    background-color: rgb(162, 201, 103);
+    width: 28%;
     min-width: 100px;
     min-height: 32px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width:900px){
+    .box3{
+        width: 48%;
+    }
 }
 
 @media (max-width:600px){
     .box3{
-        width: 50%;
+        width: 100%;
     }
 }
