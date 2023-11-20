@@ -3,6 +3,19 @@
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 10px;
+    gap: 15px;
+}
+
+@media (max-width:900px){
+    .container2{
+        gap: 10px;
+    }
+}
+@media (max-width:600px){
+    .container2{
+        gap: 20px;
+    }
 }
 

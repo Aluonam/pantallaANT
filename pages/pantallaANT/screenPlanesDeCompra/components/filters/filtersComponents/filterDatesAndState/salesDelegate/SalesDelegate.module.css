@@ -1,7 +1,7 @@
 
 
 .box5{
-    width: 20%;
+    width: 19%;
     background-color: rgb(68, 86, 41);
     min-width: 80px;
     min-height: 32px;
@@ -10,8 +10,14 @@
     justify-content: center;
 }
 
+@media (max-width:900px){
+    .box5{
+        width: 48%;
+    }
+}
+
 @media (max-width:600px){
     .box5{
-        width: 50%;
+        width: 100%;
     }
 }

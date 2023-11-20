@@ -38,7 +38,7 @@ const rangePresets = [
 const DateIntervalRangeANT = () => (
   <Space direction="vertical" size={12}>
     
-    <RangePicker presets={rangePresets} onChange={onRangeChange} />
+    <RangePicker presets={rangePresets} onChange={onRangeChange} style={{width:"100%"}}/>
     
   </Space>
 );
