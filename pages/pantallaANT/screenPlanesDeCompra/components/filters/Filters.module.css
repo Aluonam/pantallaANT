@@ -19,8 +19,8 @@
 }
 
 .filters_buttons{
-    height: 32px;
-    background-color: rgb(135, 149, 177);
+    /* height: 32px; */
+    /* background-color: rgb(135, 149, 177); */
     display: flex;
     align-items: center;
     margin-top: 10px;
