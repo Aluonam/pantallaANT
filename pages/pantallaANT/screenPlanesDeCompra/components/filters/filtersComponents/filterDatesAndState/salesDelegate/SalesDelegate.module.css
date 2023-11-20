@@ -2,12 +2,12 @@
 
 .box5{
     width: 19%;
-    background-color: rgb(68, 86, 41);
     min-width: 80px;
     min-height: 32px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
 }
 
 @media (max-width:900px){
