@@ -6,9 +6,17 @@ const handleChange = (value) => {
 const SelectSalesManagerANT = () => (
     <Select
       style={{width:"100%"}}
-      defaultValue="lucy"
       allowClear
+      placeholder="-Seleccione-"
       options={[
+        {
+          value: 'lucy',
+          label: 'Lucy',
+        },
+        {
+          value: 'lucy',
+          label: 'Lucy',
+        },
         {
           value: 'lucy',
           label: 'Lucy',
