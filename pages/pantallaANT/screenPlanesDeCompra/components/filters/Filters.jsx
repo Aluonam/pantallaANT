@@ -3,7 +3,7 @@ import styleFilters from './Filters.module.css'
 import FilterEntityAndClientCode from './filtersComponents/filterEntityAndClientCode/FilterEntityAndClientCode'
 import FilterDatesAndState from './filtersComponents/filterDatesAndState/FilterDatesAndState'
 import FilterButtonClear from './filtersComponents/filterButtonsClear/FilterButtonClear'
-import FilterButtonsNewAndDownload from './filtersComponents/filterButtonsNewAndDownload/FilterButtonsNewAndDownload'
+import FilterButtonsNewAndDownload from '../buttonsNewAndDownload/FilterButtonsNewAndDownload'
 
 const Filters = () => {
 
