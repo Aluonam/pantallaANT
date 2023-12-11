@@ -1,0 +1,5 @@
+
+.filterAndClear{
+    display: flex;
+    flex-wrap: column;
+}
