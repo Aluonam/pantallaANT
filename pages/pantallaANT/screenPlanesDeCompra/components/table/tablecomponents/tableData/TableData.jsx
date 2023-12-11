@@ -23,6 +23,10 @@ const columns = [
     title: 'Address',
     dataIndex: 'address',
   },
+  {
+    title: 'Address',
+    dataIndex: 'address',
+  }
 
 ];
 const data = [];
