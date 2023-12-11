@@ -2,4 +2,5 @@
 .filterAndClear{
     display: flex;
     flex-wrap: column;
+    gap: 10px;
 }
