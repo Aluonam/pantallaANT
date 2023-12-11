@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styleFilterButtonClear from './FilterButtonClear.module.css'
 import ButtonShowMoreANT from './buttonShowMore/ButtonShowMoreANT'
 import ButtonsFilterAndClear from './buttonsFilterAndClear/ButtonsFilterAndClear'
