@@ -6,10 +6,13 @@
     margin: 10px;
     gap: 10px;
     min-height: 32px;
+    display: flex;
+    flex-direction: row;
 }
 
 @media (max-width:600px) {
     .container3{
         justify-content: center;
+        flex-direction: column;
     }
 }
