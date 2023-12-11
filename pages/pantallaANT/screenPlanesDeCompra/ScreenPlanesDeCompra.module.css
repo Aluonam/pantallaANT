@@ -1,7 +1,6 @@
 .generalDiv{
     height: 100vh;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     padding: 20px 40px;
     background-color: white;
