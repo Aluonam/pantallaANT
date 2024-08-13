@@ -1,5 +1,6 @@
 ## PANTALLA PLANES DE COMPRA
 
+![Show screen](image.png)
 ### En qué Consiste el Proyecto:
 
 **Estructura de Carpetas:**
