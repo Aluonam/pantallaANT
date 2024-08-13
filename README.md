@@ -1,3 +1,6 @@
+![pantalla principal](image.png)
+
+
 
 **Estructura de carpetas**
 
